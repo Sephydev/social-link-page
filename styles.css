@@ -59,15 +59,21 @@ ul {
 }
 
 li {
-    background-color: hsl(0, 0%, 20%);
     margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius:0.5rem;
     font-weight: 600;
     font-size: 14px;
 }
 
 a {
+    background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
     text-decoration: none;
+    padding: 1rem;
+    display: block;
+    border-radius:0.5rem;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
